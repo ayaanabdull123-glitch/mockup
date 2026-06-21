@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><defs>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6FB2FF"/><stop offset="1" stop-color="#1668DB"/></linearGradient>
+  <linearGradient id="tilehi" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="tick" x1="55" y1="61" x2="82" y2="28" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2FCB7F"/><stop offset="1" stop-color="#19D4C4"/></linearGradient>
+</defs><g transform="translate(0,0)">
+  <rect x="6" y="6" width="88" height="88" rx="26" fill="url(#tile)"/>
+  <rect x="6" y="6" width="88" height="44" rx="26" fill="url(#tilehi)" opacity="0.35"/>
+  <path d="M52,26 L52,57 C52,70 43,74 35,74 C29,74 25,71 23.5,65.5" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M55,61 L82,28" fill="none" stroke="url(#tick)" stroke-width="12" stroke-linecap="round"/>
+</g></svg>
